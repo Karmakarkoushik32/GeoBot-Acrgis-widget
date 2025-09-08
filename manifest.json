@@ -1,0 +1,10 @@
+{
+  "name": "my-widget",
+  "label": "My Widget",
+  "description": "A custom widget that adds/query layers using @arcgis/core",
+  "author": "Koushik",
+  "version": "1.0.0",
+  "exbVersion": "1.12.0",
+  "properties": {},
+  "supportMultiInstance": true
+}
