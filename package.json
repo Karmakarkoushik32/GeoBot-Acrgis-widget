@@ -1,0 +1,25 @@
+{
+"name": "Geobot-Arcgis-widget",
+"version": "1.0.0",
+"description": "Custom ArcGIS Experience Builder widget with MapTools integration",
+"main": "widget.tsx",
+"scripts": {
+"start": "npm run build",
+"build": "webpack --config webpack.config.js",
+"lint": "eslint . --ext .ts,.tsx"
+},
+"dependencies": {
+"@arcgis/core": "^5.0.0",
+"react": "^18.0.0",
+"react-dom": "^18.0.0",
+"jimu-core": "*",
+"jimu-arcgis": "*"
+},
+"devDependencies": {
+"typescript": "^5.0.0",
+"webpack": "^5.0.0",
+"ts-loader": "^9.0.0",
+"eslint": "^8.0.0",
+"eslint-plugin-react": "^7.0.0"
+}
+}
